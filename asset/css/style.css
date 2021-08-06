@@ -1,0 +1,133 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+}
+
+header {
+    /*position: fixed;*/
+    height: 69px;
+    text-align: center;
+}
+
+    header .nav {
+        display: inline-block;
+        float: right;
+        vertical-align: middle;
+        /*padding: 20px 0;*/
+    }
+
+    header .nav a {
+        text-decoration: underline;
+        display: inline-block;
+        float: right;
+        margin: 20px;
+    }
+
+        header .nav a:nth-child(1) {
+           margin-right: 0;
+        }
+
+    header .logo {
+        display: inline-block;
+        float: left;
+        vertical-align: middle;
+    }
+
+        header .logo img {
+            height: 50px;
+            padding: 9.5px 0;
+        }
+
+
+.banner {
+    background-image: url("../img/img-mission-background.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 700px;
+}
+
+    .banner > div {
+        padding: 23% 0;
+    }
+
+    .banner > div > div {
+        background-color: black;
+    }
+
+        .banner > div > div > * {
+            padding: 10px 0;
+            margin: 15px 0;
+        }
+
+.tea-menu {
+    margin: 100px 0;
+}
+
+.tea-menu h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.tea-menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.tea-menu img {
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+}
+
+.tea-menu figcaption {
+    margin-bottom: 15px;
+}
+
+.location {
+    background-image: url("../img/img-locations-background.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 500px;
+    object-fit: fill;
+}
+
+    .location > div {
+        padding: 4% 0;
+    }
+
+.location-address {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    margin: 15px;
+    opacity: 1;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    display: inline-block;
+    float: left;
+    margin: 0 20px;
+}
